@@ -31,7 +31,7 @@ body {
     width: 80%;
     justify-content: space-between;
     background-color: var(--clr-list);
-    margin: 1.3rem 0;
+    margin: 3rem auto;
 }
 
 .list-input {
@@ -77,6 +77,19 @@ body {
 
 .buttons > button {
     background-color: var(--clr-grad1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.input {
+    background-color: var(--clr-list);
     border: none;
     border-radius: 5px;
     color: var(--clr-text);
