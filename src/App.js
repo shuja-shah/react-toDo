@@ -1,6 +1,6 @@
 import React from 'react';
 import ListContainer from './Components/ListContainer';
-import Header from './Components/Header';
+import Header from './Components/header';
 
 const App = () => (
   <>
